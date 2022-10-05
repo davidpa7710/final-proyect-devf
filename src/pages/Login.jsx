@@ -1,12 +1,14 @@
 import React from 'react'
+import '../assets/form.css'
+import logo from '../assets/Logo F! Copy copiar.png'
 
 const Login = () => {
     return (
         <>
           <div>
       <main className="form-signin">
-        <form onSubmit={handleSubmit}>
-          <img className="mb-4" src={logo} alt="" width="72" height="57" />
+        <form>
+          <img className="mb-4" src={logo} alt="" width="72" height="72" />
           <h1 className="h3 mb-3 fw-normal">Please Log in</h1>
 
           <div className="form-floating">
@@ -16,8 +18,6 @@ const Login = () => {
               id="email"
               name="email"
               placeholder="name@example.com"
-              value={input.email}
-              onChange={handleInputChange}
             />
             <label htmlFor="email">Email address</label>
           </div>
@@ -29,8 +29,6 @@ const Login = () => {
               id="password"
               name="password"
               placeholder="Password"
-              value={input.password}
-              onChange={handleInputChange}
             />
             <label htmlFor="password">Password</label>
           </div>

@@ -17,9 +17,4 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 a{
   text-decoration: none;
 }
-.signin-form{
-  width: 200px;
-  height: 100px;
-  background-color: red;
-}
 
