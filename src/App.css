@@ -19,7 +19,7 @@ a{
 }
 .calendar:hover{
   font-size: 300%;
-  transition: 1.5s;
+  transition: .5s;
   cursor: pointer;
 }
 .nav-underline:hover{
