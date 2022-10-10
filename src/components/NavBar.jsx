@@ -15,7 +15,7 @@ const Navbar = () => {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                             <Link to='/'>
                             <li className="nav-item">
-                                <a className="nav-link active nav-underline" aria-current="page"><i className="bi bi-house-fill"></i> Home</a></li>
+                                <a className="nav-link active " aria-current="page"><i className="bi bi-house-fill"></i> Home</a></li>
                             </Link>
                             <Link to='/pilotos'>
                             
@@ -28,14 +28,6 @@ const Navbar = () => {
                             <li className="nav-item nav-underline"><a className="nav-link active" ><i className="bi bi-newspaper"></i> Articulos</a></li>
                             </Link>
                             </ul>
-                        <form className="d-flex">
-                            <Link to='/signin'>
-                            <button className='btn btn-outline-light me-3'>Sign Up</button>
-                            </Link>
-                            <Link to='/login'>
-                            <button className='btn btn-outline-light me-3'>Login</button>
-                            </Link>
-                           </form>
                     </div>
                 </div>
             </nav>

@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className="display-5 fw-bold">Sigue de Cerca la Formula 1</h1>
                 <div className="col-lg-6 mx-auto">
                 <Reveal.Fade bottom>
-                    <p className="lead mb-4 ligth">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p className="lead mb-4 ligth">Conoce la Pasión que envuelve este deporte, sigue de cerca a tus pilotos favoritos y llenate de la adrenalina que es correr cada circuito, desde Monacó hasta Baherein entra en nuestros articulos para informarte lo que cada fin de semana ocurre dentro y fiera de la pista siguenos en todas nuestras redes sociales para interactuar con nosotros</p>
                     </Reveal.Fade>
                 </div>
             </div>
