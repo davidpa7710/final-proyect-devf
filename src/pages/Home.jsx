@@ -28,7 +28,7 @@ const Home = () => {
                 <h3 className="mb-0">Checo conquista Singapur</h3>
                 <div className="mb-1 text-muted">Oct 2</div>
                 <p className="card-text mb-auto">El mexicano Checo Perez conquista las calles de Singapure con una brillante actuacion.</p>
-                <Link to='articulo'>
+                <Link to='/articulo1'>
                   <a className="stretched-link link-home">Seguir Leyendo...</a>
                 </Link>
               </div>
@@ -46,7 +46,9 @@ const Home = () => {
                 <h3 className="mb-0">Japon Proclama un Nuevo Campeon</h3>
                 <div className="mb-1 text-muted">OCT 8</div>
                 <p className="mb-auto">La lluvia y varias sorpresas fueron factor en el emblematico Susuka</p>
-                <a href="#" className="stretched-link link-home">Sigue Leyendo...</a>
+                <Link to='/articulo2'>
+                  <a className="stretched-link link-home">Sigue Leyendo...</a>
+                </Link>
               </div>
               <div className="col-auto d-none d-lg-block">
                 <img src="https://memolira.com/wp-content/uploads/2022/10/Campeonato-Verstappen-1320x880.jpg" width={200} height={250} alt="post-image" />
