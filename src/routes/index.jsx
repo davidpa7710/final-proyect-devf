@@ -3,6 +3,7 @@ import Pilotos from "../pages/Pilotos";
 import Home from "../pages/Home";
 import Escuderias from "../pages/Escuderias";
 import Articulos from "../pages/Articulos";
+import Articulo from "../components/Articulo";
 
 const RoutesIndex = () =>{
     return(
@@ -11,6 +12,7 @@ const RoutesIndex = () =>{
         <Route path='/pilotos' element={<Pilotos />} />
         <Route path='/escuderias' element={<Escuderias />} />
         <Route path='/articulos' element={<Articulos />} />
+        <Route path='/articulo' element={<Articulo />} />
     </Routes>
     )
 }
