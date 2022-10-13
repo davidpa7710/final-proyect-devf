@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Escuderias from "../pages/Escuderias";
 import Articulos from "../pages/Articulos";
 import Articulo1 from "../pages/articulos/Articulo1"
+import Articulo2 from "../pages/articulos/Articulo2"
 
 const RoutesIndex = () =>{
     return(
@@ -13,6 +14,7 @@ const RoutesIndex = () =>{
         <Route path='/escuderias' element={<Escuderias />} />
         <Route path='/articulos' element={<Articulos />} />
         <Route path='/articulo1' element={<Articulo1 />} />
+        <Route path='/articulo2' element={<Articulo2 />} />
     </Routes>
     )
 }

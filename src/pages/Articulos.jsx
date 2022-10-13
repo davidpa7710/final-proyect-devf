@@ -31,6 +31,21 @@ function Articulos() {
         <Carousel.Item>
           <img
             className="d-block w-100"
+            src="https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2022/10/09/16653232710748.jpg"
+            alt="Second slide"
+            height={700}
+            />
+
+          <Carousel.Caption>
+            <h3>Verstappen se proclama campeon en Japon</h3>
+            <Link to='/articulo2'>
+            <p>Max Verstappen obtuvo su victoria en el GP de Japón y con él, el título mundial de 2022...</p>
+            </Link>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
             src="https://cdn2.mediotiempo.com/uploads/media/2022/04/30/charles-leclerc-comenzado-favorito-temporada.jpg"
             alt="Second slide"
             height={700}
