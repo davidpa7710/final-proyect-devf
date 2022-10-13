@@ -26,11 +26,11 @@ const Home = () => {
               <strong className="d-inline-block mb-2 text-primary">Nuevo Post</strong>
               <h3 className="mb-0">Checo conquista Singapur</h3>
               <div className="mb-1 text-muted">Oct 2</div>
-              <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" className="stretched-link">Continue reading</a>
+              <p className="card-text mb-auto">El mexicano Checo Perez conquista las calles de Singapure con una brillante actuacion.</p>
+              <a href="#" className="stretched-link">Seguir Leyendo...</a>
             </div>
             <div className="col-auto d-none d-lg-block">
-              <img src="./src/assets/twitter_FbLOLtUUcAAyJFs.jpg" width={200} height={250} alt="checoconquista" />
+              <img src="https://holatelcel.com/wp-content/uploads/2022/10/Checo-Pe%CC%81rez-Singapur.png" width={200} height={250} alt="checoconquista" />
             </div>
           </div>
         </div>
@@ -40,13 +40,13 @@ const Home = () => {
           <div className="row g-0 bg-light border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div className="col p-4 d-flex flex-column position-static">
               <strong className="d-inline-block mb-2 text-success">Resumen de la Carrera</strong>
-              <h3 className="mb-0">Post title</h3>
-              <div className="mb-1 text-muted">Nov 11</div>
-              <p className="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" className="stretched-link">Continue reading</a>
+              <h3 className="mb-0">Japon Proclama un Nuevo Campeon</h3>
+              <div className="mb-1 text-muted">OCT 8</div>
+              <p className="mb-auto">La lluvia y varias sorpresas fueron factor en el emblematico Susuka</p>
+              <a href="#" className="stretched-link">Sigue Leyendo...</a>
             </div>
             <div className="col-auto d-none d-lg-block">
-              <svg className="bd-placeholder-img" width={200} height={250} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="https://memolira.com/wp-content/uploads/2022/10/Campeonato-Verstappen-1320x880.jpg" width={200} height={250} alt="post-image"/>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Home = () => {
       {/* carousel */}
       <Reveal.Reveal>
       <div className="col mx-5 my-4">
-        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("./src/assets/twitter_FbLOLtUUcAAyJFs.jpg")'}}>
+        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Japan.jpg.transform/12col/image.jpg")'}}>
           <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold calendar">Previous Race <Icon.ArrowBarRight /></h2>
             <ul className="d-flex list-unstyled mt-auto">
@@ -64,10 +64,10 @@ const Home = () => {
               </li>
               <li className="d-flex align-items-center me-3">
                 <Icon.GeoFill />
-                <small> Japan</small>
+                <small>Japan</small>
               </li>
               <li className="d-flex align-items-center">
-                <small>3d <Icon.Calendar2Date /></small>
+                <small> 8 Oct <Icon.Calendar2Date /></small>
               </li>
             </ul>
           </div>
@@ -76,19 +76,19 @@ const Home = () => {
       </Reveal.Reveal>
       <Reveal.Reveal>
       <div className="col mx-5 my-4">
-        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("./src/assets/twitter_FbLOLtUUcAAyJFs.jpg")'}}>
+        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/USA.jpg.transform/12col/image.jpg")'}}>
           <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold calendar">Next Race <Icon.ArrowBarRight /></h2>
             <ul className="d-flex list-unstyled mt-auto">
               <li className="me-auto">
-               <small>Susuka International Circuit</small>
+               <small>Circuit of Americas</small>
               </li>
               <li className="d-flex align-items-center me-3">
                 <Icon.GeoFill />
-                <small> Japan</small>
+                <small>United States</small>
               </li>
               <li className="d-flex align-items-center">
-                <small>3d <Icon.Calendar2Date /></small>
+                <small>23 Oct <Icon.Calendar2Date /></small>
               </li>
             </ul>
           </div>
@@ -97,19 +97,19 @@ const Home = () => {
       </Reveal.Reveal>
       <Reveal.Reveal>
       <div className="col mx-5 my-4">
-        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("./src/assets/twitter_FbLOLtUUcAAyJFs.jpg")'}}>
+        <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{backgroundImage: 'url("https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Mexico.jpg.transform/12col/image.jpg")'}}>
           <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold calendar"> Upcoming Race <Icon.ArrowBarRight /></h2>
             <ul className="d-flex list-unstyled mt-auto">
               <li className="me-auto">
-               <small>Susuka International Circuit</small>
+               <small>Autodromo Hermanos Rodriguez</small>
               </li>
               <li className="d-flex align-items-center me-3">
                 <Icon.GeoFill />
-                <small> Japan</small>
+                <small>Mexico</small>
               </li>
               <li className="d-flex align-items-center">
-                <small>3d <Icon.Calendar2Date /></small>
+                <small>30 Oct <Icon.Calendar2Date /></small>
               </li>
             </ul>
           </div>
