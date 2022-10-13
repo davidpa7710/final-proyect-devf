@@ -2,6 +2,18 @@
     background-color: aliceblue;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     margin: 2em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.title-article{
+    margin-top: 2em;
+    font-size: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 4rem;
+}
+.writer-art{
+    margin-left: 4rem;
 }

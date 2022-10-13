@@ -5,8 +5,8 @@ const Articulo1 = () => {
   return (
     <>
     <div className='article-bg'>
-      <h1 className='mt-5'>CHECO PEREZ SE LLEVA LA VICTORIA EN SINGAPUR</h1>
-      <h5 className='text-muted'> <em>08 de Octubre del 2022 </em></h5>
+      <h1 className='title-article'>CHECO PEREZ SE LLEVA LA VICTORIA EN SINGAPUR</h1>
+      <h5 className='text-muted writer-art'> <em>08 de Octubre del 2022 </em></h5>
       <div>
         <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li><button type="button" className="btn btn-danger mx-2">
@@ -78,7 +78,8 @@ P4 y P5 respectivamente. Stroll y Vettel capitalizaron los errores de Hamilton y
 terminar sexto y octavo respectivamente, en un gran resultado. Detrás de Hamilton, Gasly completó el
 top 10 al final hubo seis retiros en la carrera. El circuito de Suzuka es la siguiente ronda del calendario,
 con Verstappen aún sigue liderando el campeonato con 341 puntos, el campeonato se vuelve cada vez
-más interesante. El Gran Premio de Japón nos espera del 7 al 9 de octubre.</p>
+más interesante..</p>
+<p className='writer-art'><em>Regina Palacios</em></p>
       </div>
       </div>
     </>
