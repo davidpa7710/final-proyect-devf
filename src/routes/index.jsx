@@ -3,7 +3,7 @@ import Pilotos from "../pages/Pilotos";
 import Home from "../pages/Home";
 import Escuderias from "../pages/Escuderias";
 import Articulos from "../pages/Articulos";
-import Articulo from "../components/Articulo";
+import Articulo1 from "../pages/articulos/Articulo1"
 
 const RoutesIndex = () =>{
     return(
@@ -12,7 +12,7 @@ const RoutesIndex = () =>{
         <Route path='/pilotos' element={<Pilotos />} />
         <Route path='/escuderias' element={<Escuderias />} />
         <Route path='/articulos' element={<Articulos />} />
-        <Route path='/articulo' element={<Articulo />} />
+        <Route path='/articulo1' element={<Articulo1 />} />
     </Routes>
     )
 }

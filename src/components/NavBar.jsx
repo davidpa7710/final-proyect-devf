@@ -15,7 +15,7 @@ const Navbar = () => {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                             <Link to='/'>
                             <li className="nav-item">
-                                <a className="nav-link active " aria-current="page"><i className="bi bi-house-fill"></i> Home</a></li>
+                                <a className="nav-link active nav-underline" aria-current="page"><i className="bi bi-house-fill"></i> Home</a></li>
                             </Link>
                             <Link to='/pilotos'>
                             

@@ -21,7 +21,7 @@ function Articulos() {
         />
         <Carousel.Caption>
           <h3>Checo Perez se lleva la victoria en Singapur</h3>
-          <Link to='/articulo'>
+          <Link to='/articulo1'>
           <a> Max Verstappen obtuvo su victoria en el GP de Japón...</a>
           </Link>
         </Carousel.Caption>

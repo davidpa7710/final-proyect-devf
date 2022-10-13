@@ -14,6 +14,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-repeat: no-repeat;
   background-size: cover;
 }
+.link-home{
+  color: black;
+  text-decoration: none;
+
+}
+.link-home:hover{
+  font-size: 105%;
+  color: #0b0b7e;
+  transition: .5s;
+}
 a{
   text-decoration: none;
   color:#dbe4e5
