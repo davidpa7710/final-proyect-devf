@@ -112,11 +112,12 @@ function Articulos() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">MAX VERSTAPPEN SE LLEVA LA POLE EN AUSTRIA 🇦🇹🏁🏆
+• El piloto Holandés logra la pole luego de una sólida clasificación por parte de Verstappen quien en la última vuelta lograría quedarse con la pole
+• Los límites de pista fueron factor importante durante la Qualy pues a varios pilotos les sacaron los tiempos por excederlos </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" className="btn btn-sm btn-outline-secondary">Leer <ArrowRight />  </button>
                     </div>
                     <small className="text-muted">9 mins</small>
                   </div>
@@ -127,11 +128,12 @@ function Articulos() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">MAX VERSTAPPEN SE LLEVA LA SPRINT RACE EN AUSTRIA 🇦🇹🏁🏆
+• Gran actuación del piloto holandés que no tuvo ningún problema en llevarse la victoria
+• Ambos pilotos de Ferrari intentaron pasar a Verstappen pero no fue suficiente para hacerle frente a Verstappen que salio con todo.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" className="btn btn-sm btn-outline-secondary">Leer <ArrowRight />  </button>
                     </div>
                     <small className="text-muted">9 mins</small>
                   </div>
@@ -142,11 +144,12 @@ function Articulos() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">CHARLES LECLERC SE LLEVA LA POLE EN FRANCIA 🇫🇷🏆🏁
+•El monegasco se lleva su pole número 16 luego de una sólida quali para el de Ferrari
+•Charles sigue sumando poles está temporada que demuestra el gran nivel que tiene el monegasco.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" className="btn btn-sm btn-outline-secondary">Leer <ArrowRight />  </button>
                     </div>
                     <small className="text-muted">9 mins</small>
                   </div>
@@ -157,11 +160,12 @@ function Articulos() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">VERSTAPPEN GANA EL GP DE FRANCIA 🇫🇷🏆🏁
+•Gran carrera del Holandés para aumentar su ventaja con Leclerc
+•Un trompo de Leclerc cambio las cosas para Max pues Charles quedó fuera y dejo pase libre para la victoria de Verstappen</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" className="btn btn-sm btn-outline-secondary">Leer <ArrowRight />  </button>
                     </div>
                     <small className="text-muted">9 mins</small>
                   </div>
@@ -172,26 +176,16 @@ function Articulos() {
               <div className="card shadow-sm">
                 <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
                 <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p className="card-text">SEBASTIAN VETTEL SE RETIRA PARA EL FINAL DE LA TEMPORADA 🥺🥲
+•El 4 veces campeón anuncia su retiro de la F1 para el final de esta temporada luego de:
+53 victorias.
+122 podios.
+57 poles.
+4 títulos mundiales.
+4º piloto con más GPs.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small className="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card shadow-sm">
-                <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div className="card-body">
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" className="btn btn-sm btn-outline-secondary">Leer <ArrowRight />  </button>
                     </div>
                     <small className="text-muted">9 mins</small>
                   </div>
