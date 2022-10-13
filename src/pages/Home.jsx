@@ -9,7 +9,7 @@ const Home = () => {
         {/* hero */}
        
             <div className="px-4 py-5 text-center text-white bg-hero img-fluid">
-                <img className="d-block mx-auto mb-5" src="./src/assets/Copia de Logo F! Copy copiar.png" alt="" width={150} height={150} />
+                <img className="d-block mx-auto mb-5" src="https://evwmyuagoicuvpebowmu.supabase.co/storage/v1/object/sign/images/Copia%20de%20Logo%20F!%20Copy%20copiar.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvQ29waWEgZGUgTG9nbyBGISBDb3B5IGNvcGlhci5wbmciLCJpYXQiOjE2NjU2MzMzNzksImV4cCI6MTk4MDk5MzM3OX0.JncL8FZKgfXGV3VO22gCzY1Tu2xV37bukeTALSAQfJc" alt="" width={150} height={150} />
                 <h1 className="display-5 fw-bold">Sigue de Cerca la Formula 1</h1>
                 <div className="col-lg-6 mx-auto">
                 <Reveal.Fade bottom>
