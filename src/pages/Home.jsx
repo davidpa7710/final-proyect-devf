@@ -11,15 +11,24 @@ const Home = () => {
 
       <div className="px-4 py-5 text-center text-white bg-hero img-fluid">
         <img className="d-block mx-auto mb-5" src="https://evwmyuagoicuvpebowmu.supabase.co/storage/v1/object/sign/images/Copia%20de%20Logo%20F!%20Copy%20copiar.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvQ29waWEgZGUgTG9nbyBGISBDb3B5IGNvcGlhci5wbmciLCJpYXQiOjE2NjU2MzMzNzksImV4cCI6MTk4MDk5MzM3OX0.JncL8FZKgfXGV3VO22gCzY1Tu2xV37bukeTALSAQfJc" alt="" width={150} height={150} />
-        <h1 className="display-5 fw-bold">Sigue de Cerca la Formula 1</h1>
+        <h1 className="display-5 fw-bold">Estamos trbajando para ofrecerte mejor contenido</h1>
         <div className="col-lg-6 mx-auto">
           <Reveal.Fade bottom>
-            <p className="lead mb-4 ligth">Conoce la Pasión que envuelve este deporte, sigue de cerca a tus pilotos favoritos y llenate de la adrenalina que es correr cada circuito, desde Monacó hasta Baherein entra en nuestros articulos para informarte lo que cada fin de semana ocurre dentro y fuera de la pista siguenos en todas nuestras redes sociales para interactuar con nosotros</p>
+            <p className="lead mb-4 ligth">Siguenos en nuestras redes sociales <br /> <br /><i class="fa-solid fa-arrow-down-long fa-bounce fa-xl"></i></p>
           </Reveal.Fade>
         </div>
+        <Reveal.Fade>
+          <div>
+          <ul className="mt-5 justify-content-center list-unstyled d-flex">
+            <li className="ms-3"><a className="text-light link-sm" href="https://twitter.com/gof1mx" target="_blank"><Icon.Twitter className="bi" width={54} height={54} /></a></li>
+            <li className="ms-3"><a className="text-light link-sm" href="https://www.facebook.com/gof1mx" target="_blank"><Icon.Facebook className="bi" width={54} height={54} /></a></li>
+            <li className="ms-3"><a className="text-light link-sm" href="https://www.instagram.com/gof1mx/" target="_blank"><Icon.Instagram className="bi" width={54} height={54} /></a></li>
+          </ul>
+          </div>
+        </Reveal.Fade>
       </div>
       {/* pattern */}
-      <div className="row mx-4 my-4">
+      {/* <div className="row mx-4 my-4">
         <Reveal.Fade left>
           <div className="col-md-6">
             <div className="row g-0 bg-light border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -56,9 +65,9 @@ const Home = () => {
             </div>
           </div>
         </Reveal.Fade>
-      </div>
+      </div> */}
       {/* carousel */}
-      <Reveal.Reveal>
+      {/* <Reveal.Reveal>
         <div className="col mx-5 my-4">
           <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style={{ backgroundImage: 'url("https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Japan.jpg.transform/12col/image.jpg")' }}>
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -120,7 +129,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </Reveal.Reveal>
+      </Reveal.Reveal> */}
     </>
   )
 }
